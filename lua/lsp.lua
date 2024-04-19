@@ -10,7 +10,7 @@ require('mason').setup({
 
 require('mason-lspconfig').setup({
     -- 要自动安装的服务器列表，如果它们尚未安装
-    ensure_installed = { 'pylsp', 'lua_ls', 'rust_analyzer', 'bash_ls', 'gopls' },
+    ensure_installed = { 'pylsp', 'lua_ls', 'rust_analyzer', 'gopls' },
 })
 
 -- 为不同的语言设置不同的 LSP 配置
