@@ -25,6 +25,13 @@ vim.keymap.set('n', '<C-Down>', ':resize +2<CR>', opts)
 vim.keymap.set('n', '<C-Left>', ':vertical resize -2<CR>', opts)
 vim.keymap.set('n', '<C-Right>', ':vertical resize +2<CR>', opts)
 
+
+
+
+-- Neo tree key 
+vim.keymap.set('n', '<C-n>', ':Neotree toggle<CR>', opts)
+
+vim.keymap.set('i', '<C-b>', '<Esc>:Neotree toggle<CR>')
 -----------------
 -- Visual mode --
 -----------------
